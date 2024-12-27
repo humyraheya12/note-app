@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gradient-to-br from-purple-300 via-cyan-200 to-blue-400 w-screen min-h-screen overscroll-none">
+    
+    <div class="flex">
+        <h1 class="text-3xl text-white font-serif font-bold mt-20 sm:ml-20 ml-5">Notes</h1>
+        <img class="w-10 mt-20" src="images/notes.png" alt="">
+    </div>
+    <div class="mt-2">
+          <button id="createNoteBtn" class="btn flex bg-gradient-to-b from-purple-700 to-purple-950 border-none text-white rounded-full sm:ml-20 ml-5">
+          <img class="w-5 mr-2" src="images/edit.png" alt="">
+            Create notes
+        </button>
+        
+    </div>
+    <div id="notesContainer">
+        <!-- <textarea
+  placeholder="Write here"
+  class="outline-none border-none textarea-lg max-w-full rounded-lg w-80"></textarea>
+  <img class=" h-4 absolute mt-20 ml-72" src="images/delete.png" alt=""> -->
+    </div>
+</body>
+<script src="js/copy.js"></script>
+</html>
