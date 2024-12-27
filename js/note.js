@@ -9,7 +9,7 @@ createNoteBtn.addEventListener('click', () => {
     // create textarea
     const textarea = document.createElement('textarea');
     textarea.placeholder = "Write here";
-    textarea.className ="outline-none border-none textarea-lg max-w-full rounded-lg w-80 overflow-scroll";
+    textarea.className ="outline-none border-none textarea-lg max-w-full rounded-lg w-80 overflow-y-auto";
     // create deletebtn
     const deleteBtn = document.createElement('img');
     deleteBtn.src = "images/delete.png";
@@ -25,4 +25,4 @@ createNoteBtn.addEventListener('click', () => {
     // append notediv
     notesContainer.appendChild(noteDiv);
 
-})
+});
